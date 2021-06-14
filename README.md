@@ -19,7 +19,7 @@ Mô tả: Hỗ trợ việc trích xuất nội dung phần lớn các bài báo
 
 **Hướng dẫn cách sử dụng:**
   
-  -Cài MongoDB và MongoDBCompass nếu chưa có; tạo database Project và collection news trong connection mặc định của MongoDB (mongodb://localhost:27017)
+  -Cài MongoDB và MongoDBCompass nếu chưa có; tạo database project và collection news trong connection mặc định của MongoDB (mongodb://localhost:27017)
   
   -Clone git về file
   

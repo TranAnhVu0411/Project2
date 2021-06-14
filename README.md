@@ -1,9 +1,9 @@
 # Project2
-Phần mềm Java VNExpress Crawler 
+## Phần mềm Java VNExpress Crawler 
 
 Mô tả: Hỗ trợ việc trích xuất nội dung phần lớn các bài báo trên trang báo điện tử VNExpress và lưu trữ tại MongoDB
 
-Yêu cầu của phần mềm:
+**Yêu cầu của phần mềm:**
 
   -Môi trường làm việc: 
   
@@ -17,7 +17,7 @@ Yêu cầu của phần mềm:
     
     +mongo-java-driver-3.12.8: Thư viện hỗ trợ kết nối Java và MongoDB
 
-Hướng dẫn cách sử dụng:
+**Hướng dẫn cách sử dụng:**
   
   -Cài MongoDB và MongoDBCompass nếu chưa có; tạo database Project và collection news trong connection mặc định của MongoDB (mongodb://localhost:27017)
   
@@ -27,3 +27,9 @@ Hướng dẫn cách sử dụng:
   ![alt text](https://i.imgur.com/vbsipOy.jpg)
   
   -Chạy class LoadingFrame để khởi động phần mềm
+  
+  **Lưu ý:** 
+  
+  -Phần mềm chỉ crawl được các bài báo trên VNExpress, các bài báo thuộc các trang khác khi crawl sẽ bị lỗi
+  
+  -Một số bài báo trên VNExpress có thể crawl không hiệu quả (Ví dụ như các bài báo chứa video) 
